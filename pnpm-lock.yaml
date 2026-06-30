@@ -268,8 +268,8 @@ importers:
         specifier: ^3.3.2
         version: 3.3.2
       pnpm:
-        specifier: ^9.15.0
-        version: 9.15.0
+        specifier: ^10.34.4
+        version: 10.34.4
       prettier:
         specifier: ^3.4.1
         version: 3.4.1
@@ -4683,8 +4683,8 @@ packages:
   pkg-types@1.2.1:
     resolution: {integrity: sha512-sQoqa8alT3nHjGuTjuKgOnvjo4cljkufdtLMnO2LBP/wRwuDlo1tkaEdMxCRhyGRPacv/ztlZgDPm2b7FAmEvw==}
 
-  pnpm@9.15.0:
-    resolution: {integrity: sha512-duI3l2CkMo7EQVgVvNZije5yevN3mqpMkU45RBVsQpmSGon5djge4QfUHxLPpLZmgcqccY8GaPoIMe1MbYulbA==}
+  pnpm@10.34.4:
+    resolution: {integrity: sha512-h2i+VSAK4/Iia2Un/Momh+FLxOXxLXchoPJdo99HkVF3BYZI20F3uvNIEg+guidS2NjZP2vq8f5krhjajelhrw==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -5534,6 +5534,7 @@ packages:
   tsconfck@3.1.4:
     resolution: {integrity: sha512-kdqWFGVJqe+KGYvlSO9NIaWn9jT1Ny4oKVzAJsKii5eoE9snzTJzL4+MMVOMn+fikWGFmKEylcXL710V/kIPJQ==}
     engines: {node: ^18 || >=20}
+    deprecated: unmaintained
     hasBin: true
     peerDependencies:
       typescript: ^5.0.0
@@ -11019,7 +11020,7 @@ snapshots:
       mlly: 1.7.3
       pathe: 1.1.2
 
-  pnpm@9.15.0: {}
+  pnpm@10.34.4: {}
 
   possible-typed-array-names@1.0.0: {}
 
